@@ -65,6 +65,9 @@ body {
 .section h2 { font-size: 32px; margin: 0 0 12px; }
 .section p { color: var(--muted); }
 
+/* Slightly push down the speakers section */
+.speakers { margin-top: 24px; }
+
 .features .grid-3, .speakers .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .impact .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
 .sponsors .grid-2, .tickets .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
